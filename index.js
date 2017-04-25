@@ -75,7 +75,7 @@ const run = async _ => {
   }
   out.push('</array>', '</plist>', '')
 
-  fs.writeFileSync('emojis.plist', out.join('\n'), 'utf8')
+  fs.writeFileSync('Text Substitutions.plist', out.join('\n'), 'utf8')
 }
 
 run()
